@@ -1,0 +1,35 @@
+.hidden { display: none; }
+
+/* base */
+* { margin: 0; padding: 0; }
+
+/* background_image */
+img { position: absolute; top: 0; left: 0; z-index: -1; background-size: cover; width: 100%; height: 100%; }
+
+/* clock */
+#clock { color: #fff; font-size: 4vw; margin: 0 auto; width: 20vw; text-align: center; margin-top: 280px; }
+
+/* login-form */
+#login-form { width: 20vw; margin: 0 auto; color: #fff; text-align: center; }
+#login-form input:first-child { border: none; border-bottom: 1px solid #fff; padding-bottom: 3px; background-color:rgba(0, 0, 0, 0); color: #fff; outline: none; }
+#login-form input:first-child::placeholder { color: #ccc; }
+#login-form input[type=submit] { border: none; background-color:rgba(0, 0, 0, 0); cursor: pointer; color: #fff; }
+
+/* greetings */
+#greeting { color: #fff; font-size: 2vw; width: 30vw; text-align: center; margin: 0 auto; }
+
+/* todo */
+#todo-form { width: 180px; margin: 0 auto; text-align: center; margin-top: 15px; }
+#todo-form input[type=text] { width: 100%; border: none; border-bottom: 1px solid #fff; background-color:rgba(0, 0, 0, 0); color: #fff; padding: 0 5px; padding-bottom: 3px; outline: none; }
+#todo-form input[type=text]::placeholder { color: #ccc; }
+#todo-list { width: 30vw; margin: 0 auto; text-align: center; margin-top: 10px; color: #fff; }
+#todo-list li { list-style: none; margin-bottom:5px; }
+#todo-list button { margin-left: 5px; border: none; background-color: rgba(0, 0, 0, 0); color: #fff; cursor: pointer; }
+
+/* quote */
+#quote { width: 60vw; margin: 0 auto;  text-align: center; margin-top: 40px; color: #fcfcfc; }
+#quote span { display: block; }
+#quote span:first-child { margin-bottom: 5px; }
+
+/* weather */
+#weather { color: #fff; position: absolute; top: 20px; right: 20px; }
