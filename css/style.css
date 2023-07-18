@@ -30,6 +30,3 @@ img { position: absolute; top: 0; left: 0; z-index: -1; background-size: cover; 
 #quote { width: 60vw; margin: 0 auto;  text-align: center; margin-top: 40px; color: #fcfcfc; }
 #quote span { display: block; }
 #quote span:first-child { margin-bottom: 5px; }
-
-/* weather */
-#weather { color: #fff; position: absolute; top: 20px; right: 20px; }
